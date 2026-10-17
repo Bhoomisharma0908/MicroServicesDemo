@@ -5,7 +5,7 @@ import com.example.orderservice.repository.OrderRepository;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/orders")
+@RequestMapping("/orders")// test
 public class OrderController {
 
     private final OrderRepository orderRepository;
